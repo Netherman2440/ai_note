@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart' as path;
 
-import 'package:get_the_memo/models/meeting.dart';
+import 'package:ai_note/models/meeting.dart';
 
 class DatabaseService {
   static Database? db;

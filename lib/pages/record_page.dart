@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:get_the_memo/services/process_service.dart';
+import 'package:ai_note/services/process_service.dart';
 import 'package:provider/provider.dart';
-import 'package:get_the_memo/view_models/record_viewmodel.dart';
-import 'package:get_the_memo/theme/text_styles.dart';
+import 'package:ai_note/view_models/record_viewmodel.dart';
+import 'package:ai_note/theme/text_styles.dart';
 
 class RecordPage extends StatelessWidget {
   @override

@@ -1,13 +1,13 @@
 import 'dart:convert';
 
 import 'package:dart_openai/dart_openai.dart';
-import 'package:get_the_memo/prompts/summarize.dart';
-import 'package:get_the_memo/prompts/action_points.dart';
-import 'package:get_the_memo/prompts/auto_title.dart';
-import 'package:get_the_memo/services/api_key_service.dart';
-import 'package:get_the_memo/services/database_service.dart';
+import 'package:ai_note/prompts/summarize.dart';
+import 'package:ai_note/prompts/action_points.dart';
+import 'package:ai_note/prompts/auto_title.dart';
+import 'package:ai_note/services/api_key_service.dart';
+import 'package:ai_note/services/database_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:get_the_memo/prompts/fix_transcription.dart' as fix_transcription;
+import 'package:ai_note/prompts/fix_transcription.dart' as fix_transcription;
 
 enum OpenAIModel {
   gpt4oMini('gpt-4o-mini'),

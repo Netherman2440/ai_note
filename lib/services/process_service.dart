@@ -1,11 +1,11 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:get_the_memo/models/meeting.dart';
-import 'package:get_the_memo/services/database_service.dart';
-import 'package:get_the_memo/services/openai_service.dart';
-import 'package:get_the_memo/services/whisper_service.dart';
-import 'package:get_the_memo/services/notification_service.dart';
+import 'package:ai_note/models/meeting.dart';
+import 'package:ai_note/services/database_service.dart';
+import 'package:ai_note/services/openai_service.dart';
+import 'package:ai_note/services/whisper_service.dart';
+import 'package:ai_note/services/notification_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ProcessService extends ChangeNotifier {

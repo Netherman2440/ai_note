@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:get_the_memo/pages/history_page.dart';
-import 'package:get_the_memo/pages/record_page.dart';
-import 'package:get_the_memo/pages/settings_page.dart';
-import 'package:get_the_memo/services/database_service.dart';
-import 'package:get_the_memo/services/process_service.dart';
+import 'package:ai_note/pages/history_page.dart';
+import 'package:ai_note/pages/record_page.dart';
+import 'package:ai_note/pages/settings_page.dart';
+import 'package:ai_note/services/database_service.dart';
+import 'package:ai_note/services/process_service.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:get_the_memo/services/notification_service.dart';
+import 'package:ai_note/services/notification_service.dart';
 
 //flutter build apk --release
 //flutter emulators --launch Pixel_3a_API_34_extension_level_7_x86_64
@@ -14,9 +13,7 @@ import 'package:get_the_memo/services/notification_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
-  // Załaduj zmienne środowiskowe
-  await dotenv.load();
+
   
   final processService = ProcessService();
 
@@ -37,7 +34,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider<ProcessService>(
       create: (_) => processService,
       child: MaterialApp(
-        title: 'Meet Note',
+        title: 'AI Note',
         themeMode: ThemeMode.dark,
         theme: ThemeData(
           useMaterial3: true,
@@ -85,7 +82,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Meet Note'),
+        title: const Text('AI Note'),
         actions: [
           IconButton(
             icon: const Icon(Icons.settings),

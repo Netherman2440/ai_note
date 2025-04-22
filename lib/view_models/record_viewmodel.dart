@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:get_the_memo/models/meeting.dart';
-import 'package:get_the_memo/services/audio_service.dart';
-import 'package:get_the_memo/services/database_service.dart';
-import 'package:get_the_memo/services/process_service.dart';
+import 'package:ai_note/models/meeting.dart';
+import 'package:ai_note/services/audio_service.dart';
+import 'package:ai_note/services/database_service.dart';
+import 'package:ai_note/services/process_service.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:get_the_memo/services/api_key_service.dart';
-import 'package:get_the_memo/services/openai_service.dart';
+import 'package:ai_note/services/api_key_service.dart';
+import 'package:ai_note/services/openai_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:get_the_memo/theme/text_styles.dart';
+import 'package:ai_note/theme/text_styles.dart';
 
 class SettingsPage extends StatefulWidget {
   @override

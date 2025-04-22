@@ -1,12 +1,8 @@
-import 'package:get_the_memo/services/api_key_service.dart';
-import 'package:get_the_memo/services/database_service.dart';
-import 'package:get_the_memo/services/openai_service.dart';
+import 'package:ai_note/services/api_key_service.dart';
+import 'package:ai_note/services/database_service.dart';
+import 'package:ai_note/services/openai_service.dart';
 import 'package:http/http.dart' as http;
 import 'dart:io';
-import 'dart:math';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:just_audio/just_audio.dart';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 

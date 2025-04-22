@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get_the_memo/services/process_service.dart';
-import 'package:get_the_memo/view_models/details_view_model.dart';
+import 'package:ai_note/services/process_service.dart';
+import 'package:ai_note/view_models/details_view_model.dart';
 import 'package:provider/provider.dart';
 
 class DetailsPage extends StatelessWidget {

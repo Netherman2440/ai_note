@@ -1,11 +1,10 @@
 import 'dart:io';
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:get_the_memo/pages/details_page.dart';
-import 'package:get_the_memo/services/database_service.dart';
-import 'package:get_the_memo/models/meeting.dart';
-import 'package:get_the_memo/services/process_service.dart';
-import 'package:get_the_memo/services/whisper_service.dart';
+import 'package:ai_note/pages/details_page.dart';
+import 'package:ai_note/services/database_service.dart';
+import 'package:ai_note/models/meeting.dart';
+import 'package:ai_note/services/process_service.dart';
 import 'package:just_audio/just_audio.dart';
 
 class HistoryViewModel extends ChangeNotifier {
