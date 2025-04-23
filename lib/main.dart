@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       create: (_) => processService,
       child: MaterialApp(
         title: 'AI Note',
-        themeMode: ThemeMode.dark,
+        themeMode: ThemeMode.light,
         theme: ThemeData(
           useMaterial3: true,
           fontFamily: "JetBrains Mono",
